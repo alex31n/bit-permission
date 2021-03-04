@@ -7,7 +7,8 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -41,7 +42,7 @@ public class BitPermission {
 
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-            this.builder.listener.onPermissionGranted();
+            this.builder.listener.onPermissionGranted(builder.permissionList);
             return;
         }
 

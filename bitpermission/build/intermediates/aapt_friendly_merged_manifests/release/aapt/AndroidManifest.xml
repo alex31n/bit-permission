@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ornach.bitpermission"
+    android:versionCode="3"
+    android:versionName="1.1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <application android:label="@string/app_name" >
+        <activity
+            android:name="com.ornach.bitpermission.PermissionActivity"
+            android:theme="@style/BitTheme.Transparent" />
+    </application>
+
+</manifest>

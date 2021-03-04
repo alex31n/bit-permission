@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public interface PermissionListener {
 
-    void onPermissionGranted();
+
+    void onPermissionGranted(ArrayList<String> grantedPermissions);
     void onPermissionDenied(ArrayList<String> deniedPermissions);
 }

@@ -1,0 +1,24 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ornach.bitpermission"
+4    android:versionCode="3"
+5    android:versionName="1.1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+10
+11    <application android:label="@string/app_name" >
+11-->D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:5:5-9:19
+11-->D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:6:9-41
+12        <activity
+12-->D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:7:9-8:58
+13            android:name="com.ornach.bitpermission.PermissionActivity"
+13-->D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:7:19-53
+14            android:theme="@style/BitTheme.Transparent" />
+14-->D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:8:13-56
+15    </application>
+16
+17</manifest>

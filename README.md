@@ -9,20 +9,8 @@
 
 ```
 dependencies {
-        compile 'com.ornach.bitpermission:bit-permission:1.1'
+        implementation 'com.ornach.bitpermission:bit-permission:1.1.2'
 }
-```
-
-&nbsp;
-#### Maven
-
-```
-<dependency>
-    <groupId>com.ornach.bitpermission</groupId>    
-    <artifactId>bit-permission</artifactId>
-    <version>1.1</version>
-    <type>pom</type> 
-</dependency>
 ```
 
 &nbsp;
@@ -43,35 +31,42 @@ Easy step you need to follow
 Declare a PermissionListener
 ```
 PermissionListener listener = new PermissionListener() {
-			@Override
-			public void onPermissionGranted() {
-				// permission was granted
-				// do something what you want
-				
-			}
 
-			@Override
-			public void onPermissionDenied(ArrayList<String> deniedPermissions) {
-				// permission denied by user
-				// you get all denied permissions as parameter
-			}
-		};
+            @Override
+            public void onPermissionGranted(ArrayList<String> grantedPermissions) {
+                // Permission granted
+                // your code here
+                Log.d(TAG, "onPermissionGranted: " + Arrays.toString(grantedPermissions.toArray()));
+                Toast.makeText(MainActivity.this, "Permission granted", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onPermissionDenied(ArrayList<String> deniedPermissions) {
+                // Permission denied
+                Log.e(TAG, "onPermissionDenied: " + Arrays.toString(deniedPermissions.toArray()));
+
+            }
+        };
 		
 ```
 &nbsp;
 
 Make a request for multiple permission
 ```
-		
-		ArrayList<String> list = new ArrayList<>();
-		list.add(Manifest.permission.CALL_PHONE);
-		list.add(Manifest.permission.CAMERA);
+    ArrayList<String> list = new ArrayList<String>();
+    list.add(Manifest.permission.CALL_PHONE);
+    list.add(Manifest.permission.CAMERA);
 
-		BitPermission bitPermission = BitPermission.with(this)
-			  .setPermissionListener(listener)
-			  .setPermissions(list)
-			  .build();
-		bitPermission.request();
+    // for android 10 or up
+    if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
+        list.add(Manifest.permission.ACCESS_BACKGROUND_LOCATION);
+    }
+
+    BitPermission bitPermission = BitPermission.with(this)
+            .setPermissionListener(listener)
+            .setPermissions(list)
+            .build();
+    bitPermission.request();
 
 ```
 
@@ -82,9 +77,15 @@ BitPermission bitPermission = BitPermission.with(this)
 			  .setPermissionListener(listener)
 			  .setPermissions(Manifest.permission.CALL_PHONE)
 			  .build();
-		bitPermission.request();
+bitPermission.request();
 ```
 
+
+&nbsp;
+## Change log
+- Migrate to androidx
+- change grant listener with granted permission
+- added new permission for Android 10
 
 &nbsp;
 &nbsp;

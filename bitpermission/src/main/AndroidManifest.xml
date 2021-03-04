@@ -3,11 +3,9 @@
     package="com.ornach.bitpermission">
 
     <application
-        android:allowBackup="true"
-        android:label="@string/app_name"
-        android:supportsRtl="true">
+        android:label="@string/app_name">
         <activity android:name=".PermissionActivity"
-            android:theme="@style/BitTheme.Transparent"></activity>
+            android:theme="@style/BitTheme.Transparent"/>
     </application>
 
 </manifest>

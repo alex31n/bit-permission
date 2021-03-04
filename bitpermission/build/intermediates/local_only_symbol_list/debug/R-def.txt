@@ -1,0 +1,5 @@
+R_DEF: Internal format may change without notice
+local
+layout activity_permission
+string app_name
+style BitTheme.Transparent

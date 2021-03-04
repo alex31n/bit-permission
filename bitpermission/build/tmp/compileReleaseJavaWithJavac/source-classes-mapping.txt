@@ -1,0 +1,12 @@
+com/ornach/bitpermission/BitPermission.java
+ com.ornach.bitpermission.BitPermission
+ com.ornach.bitpermission.BitPermission$1
+ com.ornach.bitpermission.BitPermission$Builder
+com/ornach/bitpermission/PermissionActivity.java
+ com.ornach.bitpermission.PermissionActivity
+com/ornach/bitpermission/PermissionUtils.java
+ com.ornach.bitpermission.PermissionUtils
+com/ornach/bitpermission/PermissionListener.java
+ com.ornach.bitpermission.PermissionListener
+com/ornach/bitpermission/BuildConfig.java
+ com.ornach.bitpermission.BuildConfig

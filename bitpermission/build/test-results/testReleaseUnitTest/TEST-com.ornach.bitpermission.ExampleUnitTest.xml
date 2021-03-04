@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ornach.bitpermission.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-04T05:57:21" hostname="DESKTOP-P7K57AH" time="0.001">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.ornach.bitpermission.ExampleUnitTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

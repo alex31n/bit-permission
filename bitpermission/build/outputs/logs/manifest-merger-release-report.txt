@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+		ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:1-11:12
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+		ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:1-11:12
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:5:5-9:19
+	android:label
+		ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:6:9-41
+activity#com.ornach.bitpermission.PermissionActivity
+ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:7:9-8:58
+	android:theme
+		ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:8:13-56
+	android:name
+		ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml:7:19-53
+uses-sdk
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+		ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+		ADDED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
+		INJECTED from D:\android-projects\BusFinder\bitpermission\src\main\AndroidManifest.xml
