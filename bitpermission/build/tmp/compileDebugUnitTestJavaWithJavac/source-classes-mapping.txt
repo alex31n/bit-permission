@@ -1,2 +1,0 @@
-com/ornach/bitpermission/ExampleUnitTest.java
- com.ornach.bitpermission.ExampleUnitTest
